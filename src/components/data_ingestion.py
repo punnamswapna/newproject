@@ -1,7 +1,7 @@
 import os
 import sys
-from src.pipeline.exception import CustomException 
-from src.pipeline.logger import logging 
+from src.exception import CustomException 
+from src.logger import logging 
 import pandas as pd
 
 from src.components.data_transformation import DataTransformation
